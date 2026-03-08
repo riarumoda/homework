@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Excercise 1</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div style="text-align: center; margin-bottom: 30px; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+        <button onclick="toggleAlignment()">Change Text Alignment</button>
+        <button onclick="toggleBgColor()">Toggle Box Color</button>
+    </div>
+
+    <div style="text-align: center; margin-bottom: 30px; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+        <h3>Odd Number Calculator</h3>
+        <input type="number" id="minInput" placeholder="Min value (e.g. 1)">
+        <input type="number" id="maxInput" placeholder="Max value (e.g. 15)">
+        <button onclick="displayOddSum()">Calculate Sum</button>
+        <p style="margin-top: 15px; font-weight: bold;"><span id="sumResult">0</span></p>
+    </div>
+
+    <div style="text-align: center; margin-bottom: 30px; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+        <h1 id="main-title" style="text-align:left;">ONLINE <span style="color:#ffc107;">MEDIA</span></h1>
+
+        <nav id="target-box">
+            <a href="#">Home</a>
+            <a href="#">Strategy</a>
+            <a href="#">Solusi</a>
+            <a href="#">Marketing</a>
+            <a href="#">Workshop</a>
+            <a href="#">Our Work</a>
+            <a href="#">Produk</a>
+            <a href="#">Partner</a>
+            <a href="#">Inspirasi</a>
+            <a href="#">FAQ</a>
+        </nav>
+
+        <div class="container">
+            <div class="box analytic">
+                <div class="icon">
+                    <img src="assets/chart.png" width="128" height="128">
+                </div>
+                Analytic
+            </div>
+            <div class="box creative">
+                <div class="icon">
+                    <img src="assets/temp.png" width="128" height="128">
+                </div>
+                Creative
+            </div>
+            <div class="box development">
+                <div class="icon">
+                    <img src="assets/computer.png" width="128" height="128">
+                </div>
+                Development
+            </div>
+            <div class="box marketing">
+                <div class="icon">
+                    <img src="assets/marketing.png" width="128" height="128">
+                </div>
+                Marketing
+            </div>
+            <div class="box media">
+                <div class="icon">
+                    <img src="assets/media.png" width="128" height="128">
+                </div>
+                Media
+            </div>
+            <div class="box optimization">
+                <div class="icon">
+                    <img src="assets/rocket.png" width="128" height="128">
+                </div>
+                Optimization
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
